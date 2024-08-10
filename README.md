@@ -34,6 +34,32 @@ Here's a brief preview of EmbeddedChat integrated into a website, designed to de
   <img src="https://github.com/user-attachments/assets/1f5da63d-b82e-497d-bade-cf88716297e8" width="720" alt="EC Integration">
 </p>
 
+### Code Refactor: Separation of Concerns
+
+Key updates to the EmbeddedChat repository include:
+
+1. **Separation of Components from Views**: Standalone components have been moved to a `ui-element` monorepo with its own Storybook.
+
+2. **CSS Styles Separation**: CSS styles are now in a `component.styles.js` file, providing a clear separation from core logic.
+
+3. **Markup and UI-Kit Separation**: Markups and the UI Kit are organized into a separate library (monorepo).
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b983d6c9-8190-4d5e-8a40-52588b07e7c3" width="720" alt="CSS styles in component.styles.js">
+  <br>
+  CSS styles are now in `component.styles.js`
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/77663956-2c74-4e54-a337-181abff094eb" width="720" alt="Separation into monorepo">
+  <br>
+  Separation into monorepo for `ui-elements`, `markups`, and `ui-kit`
+</p>
+
+The video below illustrates the development, usage, and setup of the ui-elements monorepo, and it also shows that EmbeddedChat functions as expected following this separation: 
+
+[UI-Elements Storybook](https://github.com/RocketChat/EmbeddedChat/assets/78961432/a399defd-cae7-495a-9f88-11f4b518df00)
+
 ## 🚀 Contributions
 
 ### GSoC Contributions to EmbeddedChat
@@ -78,15 +104,15 @@ Enjoyed what you learned today? Show your appreciation by starring this repo. �
 
 Interested in chatting about GSoC, Rocket.Chat, or open-source adventures? I'm all ears!
 
-| **Role**          | **Zishan Ahmad – GSoC Participant**                                                      |
-| :---------------- | :--------------------------------------------------------------------------------------- |
-| **Affiliation**   | [Rocket.Chat](https://rocket.chat/)                                                      |
-| **Project**       | [EmbeddedChat 2024](https://summerofcode.withgoogle.com/programs/2024/projects/eVxOuKT2) |
-| **GitHub**        | [@Spiral-Memory](https://github.com/Spiral-Memory)                                       |
-| **LinkedIn**      | [@zishanahmad72](https://www.linkedin.com/in/zishanahmad72/)                             |
+| **Role**           | **Zishan Ahmad – GSoC Participant**                                                      |
+| :----------------- | :--------------------------------------------------------------------------------------- |
+| **Affiliation**    | [Rocket.Chat](https://rocket.chat/)                                                      |
+| **Project**        | [EmbeddedChat 2024](https://summerofcode.withgoogle.com/programs/2024/projects/eVxOuKT2) |
+| **GitHub**         | [@Spiral-Memory](https://github.com/Spiral-Memory)                                       |
+| **LinkedIn**       | [@zishanahmad72](https://www.linkedin.com/in/zishanahmad72/)                             |
 | **Creative Space** | [spiral-memory.netlify.app](https://spiral-memory.netlify.app/)                          |
-| **Email**         | [zishan.barun@gmail.com](mailto:zishan.barun@gmail.com)                                  |
-| **Rocket.Chat**   | [zishan.ahmad](https://open.rocket.chat/direct/zishan.ahmad)                             |
+| **Email**          | [zishan.barun@gmail.com](mailto:zishan.barun@gmail.com)                                  |
+| **Rocket.Chat**    | [zishan.ahmad](https://open.rocket.chat/direct/zishan.ahmad)                             |
 
 ## 📌 Closing Notes
 
