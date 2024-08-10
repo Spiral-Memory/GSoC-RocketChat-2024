@@ -90,6 +90,16 @@ A demonstration video is available here:
 
 For further details on theming, you can visit the [documentation](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/theming.md) or check out the [technical guide](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/theming_technical.md) for insights on how theming is implemented in the repository.
 
+### Enhanced Authentication with HTTP-Only Cookies
+
+EmbeddedChat now supports storing HTTP-Only cookies for re-authentication, providing an extra layer of security by preventing access via inline JavaScript, which helps mitigate potential attacks. To utilize this storage method, the EmbeddedChat RC-app must be installed on the RC-server, as it acts as a bridge to save and retrieve tokens. Once set up, you can test it using the Storybook `SecureAuth` option or by simply passing the `secure: true` prop during the EmbeddedChat setup.
+
+A video demonstration is available here:
+
+[Http-Only-Cookie Auth](https://github.com/RocketChat/EmbeddedChat/assets/78961432/24fdf4bf-34b5-4e66-b045-802d6fc428dd)
+
+For more information on authentication, refer to the [authentication guide](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/authentication.md).
+
 ## 🚀 Contributions
 
 ### GSoC Contributions to EmbeddedChat
