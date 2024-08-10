@@ -92,7 +92,7 @@ For further details on theming, you can visit the [documentation](https://github
 
 ### Enhanced Authentication with HTTP-Only Cookies
 
-EmbeddedChat now supports storing HTTP-Only cookies for re-authentication, providing an extra layer of security by preventing access via inline JavaScript, which helps mitigate potential attacks. To utilize this storage method, the EmbeddedChat RC-app must be installed on the RC-server, as it acts as a bridge to save and retrieve tokens. Once set up, you can test it using the Storybook `SecureAuth` option or by simply passing the `secure: true` prop during the EmbeddedChat setup.
+EmbeddedChat authentication security has been enhanced through the use of HTTP-Only cookies for re-authentication. This approach adds an extra layer of protection by preventing access via inline JavaScript, thereby reducing the risk of potential attacks. To use this storage method, the EmbeddedChat RC app must be installed on the RC server, which acts as a bridge for saving and retrieving tokens. Once installed, you can test the feature using the Storybook `SecureAuth` option or by setting the `secure: true` prop during EmbeddedChat setup.
 
 A video demonstration is available here:
 
