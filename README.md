@@ -135,6 +135,16 @@ The following videos demonstrate its usage:
 
 To set up the EmbeddedChat RC App, follow this guide: [EmbeddedChat RC App Setup](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/ec_rc_setup.md).
 
+### Layout Editor
+
+I also worked on a new sub-project called `layout-editor` during GSoC to enhance EmbeddedChat customizability. This tool enables users to customize the EmbeddedChat layout in real-time with drag-and-drop features, color configuration, and more. Once satisfied with their design, users can click the `Generate Theme` button to create a theme object, which can be applied by passing it into the theme prop during EmbeddedChat setup or by configuring it remotely if EmbeddedChat RC App is properly set up.
+
+A video demonstration showcases the features:
+
+[Layout Editor Demo](https://github.com/user-attachments/assets/3f846616-bf33-49ca-95c7-3a6e98685476)
+
+To learn more about the layout editor, visit the guide: [Layout Editor Guide](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/layout_editor.md).
+
 ## 🚀 Contributions
 
 ### GSoC Contributions to EmbeddedChat
