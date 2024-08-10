@@ -121,7 +121,19 @@ Testing was conducted across three distinct RC apps, with video demonstrations p
 
 3. **News Aggregation App** (tested multi-select functionality):
 
-[News App UI-Kit Test](https://github.com/RocketChat/EmbeddedChat/assets/78961432/d3f611b0-3205-483f-b00a-9800893b98fb) 
+[News App UI-Kit Test](https://github.com/RocketChat/EmbeddedChat/assets/78961432/d3f611b0-3205-483f-b00a-9800893b98fb)
+
+### EmbeddedChat Remote Configurability
+
+I have added support for remote configuration of EmbeddedChat props, including themes, via the EmbeddedChat RC App. The app can also validate CSS dimensions provided in the settings. To try this feature, set up the RC app in your Rocket.Chat workspace and use the Storybook option `WithRemoteOpt` or pass the `remoteOpt: true` prop during EmbeddedChat setup.
+
+The following videos demonstrate its usage:
+
+[Remotely Configure EC](https://github.com/RocketChat/EmbeddedChat/assets/78961432/8f2e5027-2a8d-4723-8c2b-33ae7cbf9336)
+
+[CSS Validation Test](https://github.com/RocketChat/EmbeddedChat/assets/78961432/2eaa4e50-ad38-4ac8-8cc7-d8eebd875f26)
+
+To set up the EmbeddedChat RC App, follow this guide: [EmbeddedChat RC App Setup](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/ec_rc_setup.md).
 
 ## 🚀 Contributions
 
