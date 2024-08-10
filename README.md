@@ -100,6 +100,29 @@ A video demonstration is available here:
 
 For more information on authentication, refer to the [authentication guide](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/authentication.md).
 
+### UI-Kit Improvement
+
+I enhanced the UI-Kit integration within EmbeddedChat by migrating it to a monorepo as a separate library. Key improvements include:
+
+- **Modularized Structure**: Reorganized the UI-Kit folder structure for improved modularity.
+- **Action Processing**: Added state and view update logic, along with parsing methods.
+- **Contextual Bar Support**: Implemented support for the contextual bar.
+- **Component Enhancements**: Added support for static select and multi-select elements with custom components and new component stories.
+
+Testing was conducted across three distinct RC apps, with video demonstrations provided:
+
+1. **Reminder RC App**:
+
+[Reminder App UI-Kit Test](https://github.com/RocketChat/EmbeddedChat/assets/78961432/eeb17fd6-68f2-4113-8ef1-dc0faf32ca05)
+
+2. **Notion RC App**:
+
+[Notion App UI-Kit Test](https://github.com/RocketChat/EmbeddedChat/assets/78961432/71d9baa1-a54d-4077-9fbd-f7e005742f77)
+
+3. **News Aggregation App** (tested multi-select functionality):
+
+[News App UI-Kit Test](https://github.com/RocketChat/EmbeddedChat/assets/78961432/d3f611b0-3205-483f-b00a-9800893b98fb) 
+
 ## 🚀 Contributions
 
 ### GSoC Contributions to EmbeddedChat
