@@ -56,9 +56,39 @@ Key updates to the EmbeddedChat repository include:
   Separation into monorepo for `ui-elements`, `markups`, and `ui-kit`
 </p>
 
-The video below illustrates the development, usage, and setup of the ui-elements monorepo, and it also shows that EmbeddedChat functions as expected following this separation: 
+The video below illustrates the development, usage, and setup of the ui-elements monorepo, and it also shows that EmbeddedChat functions as expected following this separation:
 
 [UI-Elements Storybook](https://github.com/RocketChat/EmbeddedChat/assets/78961432/a399defd-cae7-495a-9f88-11f4b518df00)
+
+### UI Theming Upgrade: Prebuilt Themes and Style Variants
+
+The theming system has been enhanced with several prebuilt themes, ensuring a consistent use of theme colors across the repository. This replaces the previously inconsistent and varied color schemes.
+
+Once the Storybook is running, you can explore and experiment with various designs within the `Design Variants` folder, including `RCVariant`, `Bubble Variant`, and `Modern Variant`. These options enable you to either use the prebuilt themes or draw inspiration to create your own. Below are images and videos demonstrating the different variants; note that the videos also highlight fixes introduced with these PRs:
+
+[RC Variant](https://github.com/RocketChat/EmbeddedChat/assets/78961432/d9fea331-fa32-44df-8322-36c9fb2baa6c)
+
+[Bubble Variant](https://github.com/RocketChat/EmbeddedChat/assets/78961432/06d61e66-8f17-423b-a339-1728323661b3)
+
+<p align="center">
+  <img src="https://github.com/RocketChat/EmbeddedChat/assets/78961432/826cf806-1d9c-4626-a3c2-4f00d8557389" width="720" alt="Automatically generated colors in usernames in dark mode + popup instead of sidebar">
+  <br>
+  Automatically generated colors in usernames in dark mode + popup instead of sidebar
+</p>
+
+<p align="center">
+  <img src="https://github.com/RocketChat/EmbeddedChat/assets/78961432/b7efade3-b041-4311-a8a7-3e642b6f0de1" width="720" alt="Automatically generated colors in usernames in light mode + popup instead of sidebar">
+  <br>
+  Automatically generated colors in usernames in light mode + popup instead of sidebar
+</p>
+
+The theming system follows a convention similar to the ShadCN theming system. Users can generate themes from the ShadCN website or other sites that follow the same convention, then use the `packages/react/tools/theme-generator.js` to convert the theme into a supported format and apply it via the theme prop.
+
+A demonstration video is available here:
+
+[Theme Converter](https://github.com/user-attachments/assets/9078260f-1933-4be6-b019-61e9ac54be7d)
+
+For further details on theming, you can visit the [documentation](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/theming.md) or check out the [technical guide](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/theming_technical.md) for insights on how theming is implemented in the repository.
 
 ## 🚀 Contributions
 
