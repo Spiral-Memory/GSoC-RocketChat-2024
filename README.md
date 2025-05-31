@@ -88,7 +88,7 @@ A demonstration video is available here:
 
 [Theme Converter](https://github.com/user-attachments/assets/9078260f-1933-4be6-b019-61e9ac54be7d)
 
-For further details on theming, you can visit the [documentation](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/theming.md) or check out the [technical guide](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/theming_technical.md) for insights on how theming is implemented in the repository.
+For further details on theming, you can visit the [documentation](https://rocketchat.github.io/EmbeddedChat/docs/docs/Usage/theming) or check out the [technical guide](https://rocketchat.github.io/EmbeddedChat/docs/docs/Development/theming_technical) for insights on how theming is implemented in the repository.
 
 ### Enhanced Authentication with HTTP-Only Cookies
 
@@ -98,7 +98,7 @@ A video demonstration is available here:
 
 [Http-Only-Cookie Auth](https://github.com/RocketChat/EmbeddedChat/assets/78961432/24fdf4bf-34b5-4e66-b045-802d6fc428dd)
 
-For more information on authentication, refer to the [authentication guide](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/authentication.md).
+For more information on authentication, refer to the [authentication guide](https://rocketchat.github.io/EmbeddedChat/docs/docs/Usage/authentication).
 
 ### UI-Kit Improvement
 
@@ -133,7 +133,7 @@ The following videos demonstrate its usage:
 
 [CSS Validation Test](https://github.com/RocketChat/EmbeddedChat/assets/78961432/2eaa4e50-ad38-4ac8-8cc7-d8eebd875f26)
 
-To set up the EmbeddedChat RC App, follow this guide: [EmbeddedChat RC App Setup](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/ec_rc_setup.md).
+To set up the EmbeddedChat RC App, follow this guide: [EmbeddedChat RC App Setup](https://rocketchat.github.io/EmbeddedChat/docs/docs/Usage/ec_rc_setup).
 
 ### Layout Editor
 
@@ -143,7 +143,7 @@ A video demonstration showcases the features:
 
 [Layout Editor Demo](https://github.com/user-attachments/assets/3f846616-bf33-49ca-95c7-3a6e98685476)
 
-To learn more about the layout editor, visit the guide: [Layout Editor Guide](https://github.com/RocketChat/EmbeddedChat/blob/develop/packages/docs/layout_editor.md).
+To learn more about the layout editor, visit the guide: [Layout Editor Guide](https://rocketchat.github.io/EmbeddedChat/docs/docs/Usage/layout_editor).
 
 ## 🚀 Contributions
 
